@@ -1,0 +1,9 @@
+[package]
+name = "donatsu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.39"
+libsql = { version = "0.6.0", default-features = false, features = ["core"] }
+tokio = { version = "1.43.0", features = ["full"] }
